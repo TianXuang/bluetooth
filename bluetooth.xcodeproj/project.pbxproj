@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		79050C341E276894005D5BB7 /* CenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79050C331E276894005D5BB7 /* CenterViewController.m */; };
+		79050C371E27690D005D5BB7 /* PeripheralManagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79050C361E27690D005D5BB7 /* PeripheralManagerViewController.m */; };
+		79050C3A1E277799005D5BB7 /* CenterManagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79050C391E277799005D5BB7 /* CenterManagerViewController.m */; };
 		79A2103D1E261EFE0054EE69 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A2103C1E261EFE0054EE69 /* main.m */; };
 		79A210401E261EFE0054EE69 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A2103F1E261EFE0054EE69 /* AppDelegate.m */; };
 		79A210431E261EFE0054EE69 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A210421E261EFE0054EE69 /* ViewController.m */; };
@@ -35,6 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		79050C321E276894005D5BB7 /* CenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CenterViewController.h; sourceTree = "<group>"; };
+		79050C331E276894005D5BB7 /* CenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CenterViewController.m; sourceTree = "<group>"; };
+		79050C351E27690D005D5BB7 /* PeripheralManagerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeripheralManagerViewController.h; sourceTree = "<group>"; };
+		79050C361E27690D005D5BB7 /* PeripheralManagerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeripheralManagerViewController.m; sourceTree = "<group>"; };
+		79050C381E277799005D5BB7 /* CenterManagerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CenterManagerViewController.h; sourceTree = "<group>"; };
+		79050C391E277799005D5BB7 /* CenterManagerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CenterManagerViewController.m; sourceTree = "<group>"; };
 		79A210381E261EFE0054EE69 /* bluetooth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bluetooth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79A2103C1E261EFE0054EE69 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		79A2103E1E261EFE0054EE69 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -105,6 +114,12 @@
 				79A2103F1E261EFE0054EE69 /* AppDelegate.m */,
 				79A210411E261EFE0054EE69 /* ViewController.h */,
 				79A210421E261EFE0054EE69 /* ViewController.m */,
+				79050C321E276894005D5BB7 /* CenterViewController.h */,
+				79050C331E276894005D5BB7 /* CenterViewController.m */,
+				79050C351E27690D005D5BB7 /* PeripheralManagerViewController.h */,
+				79050C361E27690D005D5BB7 /* PeripheralManagerViewController.m */,
+				79050C381E277799005D5BB7 /* CenterManagerViewController.h */,
+				79050C391E277799005D5BB7 /* CenterManagerViewController.m */,
 				79A210441E261EFE0054EE69 /* Main.storyboard */,
 				79A210471E261EFE0054EE69 /* Assets.xcassets */,
 				79A210491E261EFE0054EE69 /* LaunchScreen.storyboard */,
@@ -209,6 +224,11 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = SE87NC5CD4;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
 					};
 					79A210501E261EFF0054EE69 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -277,8 +297,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				79A210431E261EFE0054EE69 /* ViewController.m in Sources */,
+				79050C3A1E277799005D5BB7 /* CenterManagerViewController.m in Sources */,
+				79050C371E27690D005D5BB7 /* PeripheralManagerViewController.m in Sources */,
 				79A210401E261EFE0054EE69 /* AppDelegate.m in Sources */,
 				79A2103D1E261EFE0054EE69 /* main.m in Sources */,
+				79050C341E276894005D5BB7 /* CenterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,6 +537,7 @@
 				79A210671E261EFF0054EE69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		79A210681E261EFF0054EE69 /* Build configuration list for PBXNativeTarget "bluetoothTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +546,7 @@
 				79A2106A1E261EFF0054EE69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		79A2106B1E261EFF0054EE69 /* Build configuration list for PBXNativeTarget "bluetoothUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +555,7 @@
 				79A2106D1E261EFF0054EE69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
